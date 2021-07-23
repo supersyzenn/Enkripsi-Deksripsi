@@ -17,7 +17,7 @@ def enkripsi(isi):
             cipher = cipher + i
 
     return cipher
-#
+
 
 def deksripsi(cipher):
     global text
