@@ -2,7 +2,7 @@ import string
 
 text = string.printable
 
-
+#pilih opsi 1, masukan dulu isi pesan di enkripsi dan sandinya bebas nanti bila sudah diisi, masukan output pesan dan masukan sandi yang di enkrripsi tadi ke opsi 2 atau deksripsi
 def enkripsi(isi):
     global text
 
@@ -17,7 +17,7 @@ def enkripsi(isi):
             cipher = cipher + i
 
     return cipher
-
+#
 
 def deksripsi(cipher):
     global text
